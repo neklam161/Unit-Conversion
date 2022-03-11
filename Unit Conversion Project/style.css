@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #1C1C1C;
+  font-family:'Inter';
+  color: white;
+}
+
+.content{
+  position:relative;
+  top: 90px;
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.top h1{
+  font-size:22px;
+  padding-bottom: 20px;
+}
+.top{
+  background: linear-gradient(246.26deg, #172346 0%, #3D6BE6 100%);
+  padding: 50px 0;
+}
+.bottom{
+  background: #1F2937;
+  padding: 70px 0;
+}
+.mesurments{
+  padding:15px;
+}
+h2{
+  font-weight:700
+}
+p{
+  color: #D2D2D2;
+}
+#userinput{
+ outline:none;
+ border:none;
+ background:transparent;
+ width: 400px;
+ font-size: 80px;
+ text-align: center;
+ caret-color: rgb(21, 21, 71);
+ font-style: bold;
+ 
+ 
+}
