@@ -10,7 +10,7 @@
   <title>Unit Conversion</title>
 </head>
 <body>
-    <script src="script.js"></script>
+   
     <header>
       
     </header>
@@ -18,18 +18,20 @@
       <div class="top">
           <h1>Metric/Imperial unit conversion</h1>
           <form action="" method="get"></form>
-          <label for="userinput"></label>
-          <input type="text" name="userinput" id="userinput" placeholder="0" maxlength="5">
+          <input type="number" name="userinput1" id="userinput" placeholder="0" maxlength="3" oninput=textshow(this.value);converter(this.value) onchange="show(this.value);converter(this.value)"  >
       </form>
       </div>
       <div class="bottom">
           <h2 class="mesurments">Length (Meter/Feet)</h2>
-          <p> meters =  feet |  feet =  meters</p>
+          <p><span class="userinput1"></span> meters = <span id="mettofeet"></span> feet | <span class="userinput1"></span>  feet = <span id="feettomet"></span> meters</p>
           <h2 class="mesurments">Volume (Liters/Gallons)</h2>
-          <p> liters =  gallons | gallons = liters</p>
+          <p><span class="userinput1"></span> liters = <span id="littogal"></span> gallons |<span class="userinput1"></span> gallons = <span id="galtolit"></span> liters</p>
           <h2 class="mesurments">Mass (Kilograms/Pounds)</h2>
-          <p> kilos =  pounds |  pounds =  kilos</p>
+          <p><span class="userinput1"></span> kilos = <span id="kilotopound"></span>  pounds |<span class="userinput1"></span>  pounds = <span id="poundtokilo"></span> kilos</p>
+          
+
       </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>

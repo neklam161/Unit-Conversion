@@ -46,6 +46,8 @@ p{
  text-align: center;
  caret-color: rgb(21, 21, 71);
  font-style: bold;
- 
- 
+
+}
+input[type=number] {
+  -moz-appearance:textfield; /* Firefox */
 }
